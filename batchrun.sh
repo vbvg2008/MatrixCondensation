@@ -2,7 +2,7 @@
 # cores per node
 cpn=20
 # list of executables
-for x in mc_p ge_p ge_pg; do
+for x in mc_p ge_p ge_scalapack; do
 # for each number of procs
  for i in 1 2 4 8 16 32 64 128; do
             if [[ $i -lt $cpn ]]; then

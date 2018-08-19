@@ -18,14 +18,14 @@ mc_p: mc_p.o $(MODMPI)
 ge_p: ge_p.o $(MODMPI)
 	mpifort -o $@ $^ $(LFLAGS)
 ge_scalapack: ge_scalapack.o $(MODMPI)
-	mpifort -o $@ $^ $(LFLAGS)
+	mpifort -o $@ $^ $(LFLAGS) $(LIBS)
 
 mc_p.o: mc_p.f95 $(patsubst %.o,%mpi.o,$(MODS))
 	mpifort -o $@ $< $(CFLAGS) -O3
 ge_p.o: ge_p.f95 $(patsubst %.o,%mpi.o,$(MODS))
 	mpifort -o $@ $< $(CFLAGS) -O3
 ge_scalapack.o: ge_scalapack.f $(patsubst %.o,%mpi.o,$(MODS))
-	mpifort -o $@ $< $(CFLAGS) -O3 $(LIBS)
+	mpifort -o $@ $< $(CFLAGS) -O3
 
 $(MODS) : $(MODSRC)
 	gfortran -o $@ $< $(CFLAGS)

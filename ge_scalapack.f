@@ -50,11 +50,13 @@
         endif
 
         ! create as square as possible a grid of processors
-		  prow = 1
-		  pcol = procs
-		  !print *, "prow",prow,"pcol",pcol
+	prow = 1
+	pcol = procs
+        !print *, "prow",prow,"pcol",pcol
 
-		nb = 1
+        ! blocksize - a free parameter.
+        nb = 1
+
 
         ! create the BLACS context
 
