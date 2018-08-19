@@ -25,12 +25,9 @@ Example:
 
 make mc_p
 
-mpirun -n 4 mc_p 1000     (this will calculate log(abs(det)) of random 1000x1000 dense matrix)
+mpirun -n 4 mc_p 1000 this will calculate log(abs(det)) of random 1000x1000 dense matrix
 
-mpirun -n 4 mc_p 1000 /root/to/specific/test/matrix  (this will calculate a log(abs(det)) of specified matrix data)
-
-test matrix can be downloaded here: http://morpheus.mcs.utulsa.edu/~papama/hpc/
-
+mpirun -n 4 mc_p 1000 ./input/m1000x1000.bin 
 
 
 if you have any question, send email to Xiaomeng.dong-1@ou.edu
