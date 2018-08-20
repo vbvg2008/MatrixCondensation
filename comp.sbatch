@@ -126,7 +126,7 @@
 # will know the working directory, which can be helpful in
 # properly managing your batch job.
 #
-#SBATCH --workdir=/home/vbvg2008/MC
+#SBATCH --workdir=/home/vbvg2008/HPC/MatrixCondensation
 #
 # Standard output (stdout) is the output that normally would go to
 # the terminal screen.
@@ -144,8 +144,8 @@
 # * CHANGE vbvg2008 to your username;
 # * CHANGE Xiaomeng.dong-1@ou.edu to your e-mail address.
 #
-#SBATCH --output=/home/vbvg2008/output/%J_stdout.txt
-#SBATCH --error=/home/vbvg2008/output/%J_stderr.txt
+#SBATCH --output=/home/vbvg2008/HPC/MatrixCondensation/output/%J_stdout.txt
+#SBATCH --error=/home/vbvg2008/HPC/MatrixCondensation/output/%J_stderr.txt
 #
 # The SBATCH directive below says to run for up to 30 minutes
 # (that is, zero hours plus 30 minutes plus zero seconds) of
@@ -169,7 +169,7 @@
 #     example: 1-12:30:18 means 1 day plus 12 hours plus 30 minutes
 #       plus 18 seconds
 #
-#SBATCH --time=00:30:00
+#SBATCH --time=01:00:00
 #
 # The SBATCH directive below says the name of the batch job, as it
 # will appear in the batch partition listing when you do an squeue
@@ -179,7 +179,7 @@
 # * CHANGE vbvg2008 to your username;
 # * CHANGE Xiaomeng.dong-1@ou.edu to your e-mail address.
 #
-#SBATCH --job-name=ge_pg
+#SBATCH --job-name=ge_p
 #
 # The SBATCH directive below says the e-mail address to send
 # notifications to, which should be changed to your e-mail address.
@@ -229,12 +229,12 @@ module load OpenMPI
 # * CHANGE Xiaomeng.dong-1@ou.edu to your e-mail address.
 
 N_PROC=128
-BIN_NAME=ge_pg
+BIN_NAME=ge_p
 
 echo $BIN_NAME
 for x in 1000 2000 3000 4000 5000 6000 7000 8000; do
  for i in 1 2 3 4 5; do
         echo "Input size $x test:$i"
-        mpirun -n $N_PROC /home/vbvg2008/MC/$BIN_NAME $x /home/vbvg2008/input/m${x}x${x}.bin
+        mpirun -n $N_PROC $BIN_NAME $x input/m${x}x${x}.bin
  done
 done

@@ -1,0 +1,204 @@
+Working directory:
+/home/vbvg2008/HPC/MatrixCondensation
+
+ge_p
+Input size 1000 test:1
+ The log10 of determinant is :    743.12206301501715     
+          32 Processors, Total Time used:    3.63899994      seconds
+          32 Processors, Total Communication Time used:    3.35899997      seconds
+          32 Processors, Matrix Distribution time:   0.275000006      seconds
+Input size 1000 test:2
+ The log10 of determinant is :    743.12206301501715     
+          32 Processors, Total Time used:    3.66400003      seconds
+          32 Processors, Total Communication Time used:    3.38299990      seconds
+          32 Processors, Matrix Distribution time:   0.275999993      seconds
+Input size 1000 test:3
+ The log10 of determinant is :    743.12206301501715     
+          32 Processors, Total Time used:    3.60999990      seconds
+          32 Processors, Total Communication Time used:    3.33100009      seconds
+          32 Processors, Matrix Distribution time:   0.275000006      seconds
+Input size 1000 test:4
+ The log10 of determinant is :    743.12206301501715     
+          32 Processors, Total Time used:    3.61500001      seconds
+          32 Processors, Total Communication Time used:    3.34500003      seconds
+          32 Processors, Matrix Distribution time:   0.263000011      seconds
+Input size 1000 test:5
+ The log10 of determinant is :    743.12206301501715     
+          32 Processors, Total Time used:    3.58400011      seconds
+          32 Processors, Total Communication Time used:    3.30900002      seconds
+          32 Processors, Matrix Distribution time:   0.263999999      seconds
+Input size 2000 test:1
+ The log10 of determinant is :    1786.3846315317669     
+          32 Processors, Total Time used:    4.15299988      seconds
+          32 Processors, Total Communication Time used:    3.68799996      seconds
+          32 Processors, Matrix Distribution time:   0.402000010      seconds
+Input size 2000 test:2
+ The log10 of determinant is :    1786.3846315317669     
+          32 Processors, Total Time used:    4.19999981      seconds
+          32 Processors, Total Communication Time used:    3.72700000      seconds
+          32 Processors, Matrix Distribution time:   0.412999988      seconds
+Input size 2000 test:3
+ The log10 of determinant is :    1786.3846315317669     
+          32 Processors, Total Time used:    4.13899994      seconds
+          32 Processors, Total Communication Time used:    3.69600010      seconds
+          32 Processors, Matrix Distribution time:   0.389999986      seconds
+Input size 2000 test:4
+ The log10 of determinant is :    1786.3846315317669     
+          32 Processors, Total Time used:    4.13899994      seconds
+          32 Processors, Total Communication Time used:    3.69099998      seconds
+          32 Processors, Matrix Distribution time:   0.388999999      seconds
+Input size 2000 test:5
+ The log10 of determinant is :    1786.3846315317669     
+          32 Processors, Total Time used:    4.13899994      seconds
+          32 Processors, Total Communication Time used:    3.67899990      seconds
+          32 Processors, Matrix Distribution time:   0.389999986      seconds
+Input size 3000 test:1
+ The log10 of determinant is :    2945.7806338694504     
+          32 Processors, Total Time used:    4.55399990      seconds
+          32 Processors, Total Communication Time used:    3.88400006      seconds
+          32 Processors, Matrix Distribution time:   0.463000000      seconds
+Input size 3000 test:2
+ The log10 of determinant is :    2945.7806338694504     
+          32 Processors, Total Time used:    4.53599977      seconds
+          32 Processors, Total Communication Time used:    3.82100010      seconds
+          32 Processors, Matrix Distribution time:   0.477999985      seconds
+Input size 3000 test:3
+ The log10 of determinant is :    2945.7806338694504     
+          32 Processors, Total Time used:    4.54400015      seconds
+          32 Processors, Total Communication Time used:    3.84200001      seconds
+          32 Processors, Matrix Distribution time:   0.462000012      seconds
+Input size 3000 test:4
+ The log10 of determinant is :    2945.7806338694504     
+          32 Processors, Total Time used:    4.56199980      seconds
+          32 Processors, Total Communication Time used:    3.88800001      seconds
+          32 Processors, Matrix Distribution time:   0.465000004      seconds
+Input size 3000 test:5
+ The log10 of determinant is :    2945.7806338694504     
+          32 Processors, Total Time used:    4.58199978      seconds
+          32 Processors, Total Communication Time used:    3.89499998      seconds
+          32 Processors, Matrix Distribution time:   0.465000004      seconds
+Input size 4000 test:1
+ The log10 of determinant is :    4176.3350198553890     
+          32 Processors, Total Time used:    5.36199999      seconds
+          32 Processors, Total Communication Time used:    4.19099998      seconds
+          32 Processors, Matrix Distribution time:   0.570999980      seconds
+Input size 4000 test:2
+ The log10 of determinant is :    4176.3350198553890     
+          32 Processors, Total Time used:    5.34399986      seconds
+          32 Processors, Total Communication Time used:    4.15999985      seconds
+          32 Processors, Matrix Distribution time:   0.574000001      seconds
+Input size 4000 test:3
+ The log10 of determinant is :    4176.3350198553890     
+          32 Processors, Total Time used:    5.20200014      seconds
+          32 Processors, Total Communication Time used:    4.07200003      seconds
+          32 Processors, Matrix Distribution time:   0.537000000      seconds
+Input size 4000 test:4
+ The log10 of determinant is :    4176.3350198553890     
+          32 Processors, Total Time used:    5.27199984      seconds
+          32 Processors, Total Communication Time used:    4.08199978      seconds
+          32 Processors, Matrix Distribution time:   0.537000000      seconds
+Input size 4000 test:5
+ The log10 of determinant is :    4176.3350198553890     
+          32 Processors, Total Time used:    5.29899979      seconds
+          32 Processors, Total Communication Time used:    4.15100002      seconds
+          32 Processors, Matrix Distribution time:   0.549000025      seconds
+Input size 5000 test:1
+ The log10 of determinant is :    5464.1181104868547     
+          32 Processors, Total Time used:    7.23999977      seconds
+          32 Processors, Total Communication Time used:    4.38899994      seconds
+          32 Processors, Matrix Distribution time:   0.649999976      seconds
+Input size 5000 test:2
+ The log10 of determinant is :    5464.1181104868547     
+          32 Processors, Total Time used:    7.26700020      seconds
+          32 Processors, Total Communication Time used:    4.40500021      seconds
+          32 Processors, Matrix Distribution time:   0.643000007      seconds
+Input size 5000 test:3
+ The log10 of determinant is :    5464.1181104868547     
+          32 Processors, Total Time used:    7.24300003      seconds
+          32 Processors, Total Communication Time used:    4.34600019      seconds
+          32 Processors, Matrix Distribution time:   0.652000010      seconds
+Input size 5000 test:4
+ The log10 of determinant is :    5464.1181104868547     
+          32 Processors, Total Time used:    7.27600002      seconds
+          32 Processors, Total Communication Time used:    4.43300009      seconds
+          32 Processors, Matrix Distribution time:   0.652000010      seconds
+Input size 5000 test:5
+ The log10 of determinant is :    5464.1181104868547     
+          32 Processors, Total Time used:    7.24200010      seconds
+          32 Processors, Total Communication Time used:    4.36199999      seconds
+          32 Processors, Matrix Distribution time:   0.652999997      seconds
+Input size 6000 test:1
+ The log10 of determinant is :    6794.7536644899346     
+          32 Processors, Total Time used:    10.2709999      seconds
+          32 Processors, Total Communication Time used:    4.52400017      seconds
+          32 Processors, Matrix Distribution time:   0.751999974      seconds
+Input size 6000 test:2
+ The log10 of determinant is :    6794.7536644899346     
+          32 Processors, Total Time used:    10.2419996      seconds
+          32 Processors, Total Communication Time used:    4.50699997      seconds
+          32 Processors, Matrix Distribution time:   0.750999987      seconds
+Input size 6000 test:3
+ The log10 of determinant is :    6794.7536644899346     
+          32 Processors, Total Time used:    10.1809998      seconds
+          32 Processors, Total Communication Time used:    4.51499987      seconds
+          32 Processors, Matrix Distribution time:   0.742999971      seconds
+Input size 6000 test:4
+ The log10 of determinant is :    6794.7536644899346     
+          32 Processors, Total Time used:    10.2279997      seconds
+          32 Processors, Total Communication Time used:    4.44000006      seconds
+          32 Processors, Matrix Distribution time:   0.740999997      seconds
+Input size 6000 test:5
+ The log10 of determinant is :    6794.7536644899346     
+          32 Processors, Total Time used:    10.2440004      seconds
+          32 Processors, Total Communication Time used:    4.55399990      seconds
+          32 Processors, Matrix Distribution time:   0.740999997      seconds
+Input size 7000 test:1
+ The log10 of determinant is :    8159.7807541944067     
+          32 Processors, Total Time used:    14.3599997      seconds
+          32 Processors, Total Communication Time used:    4.73000002      seconds
+          32 Processors, Matrix Distribution time:   0.852999985      seconds
+Input size 7000 test:2
+ The log10 of determinant is :    8159.7807541944067     
+          32 Processors, Total Time used:    14.5220003      seconds
+          32 Processors, Total Communication Time used:    4.61299992      seconds
+          32 Processors, Matrix Distribution time:   0.861000001      seconds
+Input size 7000 test:3
+ The log10 of determinant is :    8159.7807541944067     
+          32 Processors, Total Time used:    14.3240004      seconds
+          32 Processors, Total Communication Time used:    4.66800022      seconds
+          32 Processors, Matrix Distribution time:   0.842999995      seconds
+Input size 7000 test:4
+ The log10 of determinant is :    8159.7807541944067     
+          32 Processors, Total Time used:    14.4460001      seconds
+          32 Processors, Total Communication Time used:    4.74399996      seconds
+          32 Processors, Matrix Distribution time:   0.855000019      seconds
+Input size 7000 test:5
+ The log10 of determinant is :    8159.7807541944067     
+          32 Processors, Total Time used:    14.3549995      seconds
+          32 Processors, Total Communication Time used:    4.65199995      seconds
+          32 Processors, Matrix Distribution time:   0.856000006      seconds
+Input size 8000 test:1
+ The log10 of determinant is :    9557.5302114643146     
+          32 Processors, Total Time used:    19.7059994      seconds
+          32 Processors, Total Communication Time used:    4.98799992      seconds
+          32 Processors, Matrix Distribution time:   0.973999977      seconds
+Input size 8000 test:2
+ The log10 of determinant is :    9557.5302114643146     
+          32 Processors, Total Time used:    19.4230003      seconds
+          32 Processors, Total Communication Time used:    4.85599995      seconds
+          32 Processors, Matrix Distribution time:   0.995000005      seconds
+Input size 8000 test:3
+ The log10 of determinant is :    9557.5302114643146     
+          32 Processors, Total Time used:    19.3619995      seconds
+          32 Processors, Total Communication Time used:    4.78900003      seconds
+          32 Processors, Matrix Distribution time:   0.963000000      seconds
+Input size 8000 test:4
+ The log10 of determinant is :    9557.5302114643146     
+          32 Processors, Total Time used:    19.4689999      seconds
+          32 Processors, Total Communication Time used:    4.88600016      seconds
+          32 Processors, Matrix Distribution time:   0.984000027      seconds
+Input size 8000 test:5
+ The log10 of determinant is :    9557.5302114643146     
+          32 Processors, Total Time used:    19.4689999      seconds
+          32 Processors, Total Communication Time used:    4.95900011      seconds
+          32 Processors, Matrix Distribution time:   0.994000018      seconds
