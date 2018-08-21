@@ -1,3 +1,4 @@
 *.o
 *.mod
 /input
+results/.ipynb_checkpoints
