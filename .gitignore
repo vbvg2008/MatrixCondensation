@@ -2,3 +2,4 @@
 *.mod
 /input
 results/.ipynb_checkpoints
+~*.xlsx
