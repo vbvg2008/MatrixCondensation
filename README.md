@@ -1,5 +1,5 @@
 ## Parallel Matrix Condensation for Calculating Log-Determinant of Large Matrix  
-This repository contains the source code, sample input, output and result for following parallel algorithms that calculate the determinant of large dense matrix.  All algorithms are implemented by Fortran and are parallelized by MPI.
+This repository contains the source code, sample input, output and result for following parallel algorithms that calculate the determinant of large matrix.  All algorithms are implemented by Fortran and are parallelized by MPI.
 
 * Matrix Condensation (mc_p.f95)
 * Gaussian Elimination (ge_p.f95)
